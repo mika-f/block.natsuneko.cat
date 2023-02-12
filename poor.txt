@@ -1,0 +1,9 @@
+# 質が悪い
+
+# サイトレベル
+*://appbank.net/*
+*://rocketnews24.com/*
+
+# Zenn で邪魔
+*://*/nameless_sn/*
+
