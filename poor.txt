@@ -7,3 +7,5 @@
 # Zenn で邪魔
 *://*/nameless_sn/*
 
+# いかがでしたか？
+*://appli-world.jp/*
