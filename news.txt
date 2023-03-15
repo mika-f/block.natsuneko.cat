@@ -1,0 +1,13 @@
+# ニュースサイト
+# デマ、フェイクニュースなどの発信が多いもしくは信憑性が低い
+#
+# 購読用 URL:
+#    https://block.natsuneko.cat/news.txt
+
+*://appbank.net/*
+*://buzzap.jp/*
+*://getnews.jp/*
+*://jbpress.ismedia.jp/*
+*://rocketnews24.com/*
+*://souken.shikigaku.jp/*
+*://studyhacker.net/*

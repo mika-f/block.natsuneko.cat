@@ -1,0 +1,12 @@
+# 海外サイト (StackOverflow など) の機械翻訳を転載しているサイト
+#
+# 購読用 URL:
+#    https://block.natsuneko.cat/machine-translation.txt
+
+*://help.diary.to/*
+*://ja.101-help.com/*
+*://ja.letmeknow.ch/*
+*://jp.minitool.com/*
+*://recoverit.wondershare.jp/*
+*://www.tunesbro.jp/*
+*://www.web-dev-qa-db-ja.com/*

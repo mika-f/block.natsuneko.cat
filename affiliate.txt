@@ -1,3 +1,7 @@
-# 誘導系
+# アフィリエイトサイト
+# 一般記事を装って、自社サイトなどへ誘導しているもの
+#
+# 購読用 URL:
+#    https://block.natsuneko.cat/affiliate.txt
 
 *://realengineer.link/*

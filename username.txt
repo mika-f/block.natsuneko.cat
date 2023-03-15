@@ -1,0 +1,23 @@
+# ユーザー投稿型サイトにおいて、転載記事および広告記事が多いユーザーのブロックリスト
+#
+# 購読用 URL:
+#    https://block.natsuneko.cat/username.txt
+
+
+# 主に Qiita で日本語転載系
+*://*/baby-degu/*
+*://*/rana_kualu/*
+
+# 主に Qiita で検索妨害 (リダイレクト記事)
+*://*/naoki_mochizuki/*
+
+# 主に　Zenn
+*://*/nameless_sn/*
+
+# 主に Twitter
+*://*/7banian_com/*
+*://*/kub81pre/*
+*://*/masaki_0728/*
+*://*/navalley_crypto/*
+*://*/piromin8889/*
+*://*/ryuji_affiliate/*

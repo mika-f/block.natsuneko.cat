@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/:category",
+      "destination": "https://raw.githubusercontent.com/mika-f/uNekoBlockList/main/:category"
+    }
+  ]
+}
