@@ -4,4 +4,6 @@
 # 購読用 URL:
 #    https://block.natsuneko.cat/affiliate.txt
 
+*://magazine.techacademy.jp/*
 *://realengineer.link/*
+*://www.sejuku.net/*
