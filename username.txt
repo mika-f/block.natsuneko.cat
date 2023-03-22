@@ -21,3 +21,6 @@
 *://*/navalley_crypto/*
 *://*/piromin8889/*
 *://*/ryuji_affiliate/*
+
+# 主に note
+*://*/daichi_mu/*

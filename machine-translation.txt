@@ -8,5 +8,7 @@
 *://ja.letmeknow.ch/*
 *://jp.minitool.com/*
 *://recoverit.wondershare.jp/*
+*://www.delftstack.com/*
+*://www.techiedelight.com/*
 *://www.tunesbro.jp/*
 *://www.web-dev-qa-db-ja.com/*
