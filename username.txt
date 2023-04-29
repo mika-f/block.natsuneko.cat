@@ -42,6 +42,7 @@
 *://*/shin7_business/*
 *://*/shota7180/*
 *://*/sunsuke2/*
+*://*/tairo/*
 *://*/usutaku_com/*
 
 # 主に note
