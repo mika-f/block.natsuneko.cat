@@ -1,0 +1,17 @@
+{
+  "name": "@natsuneko-laboratory/u-neko-block-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "schema": "typescript-json-schema src/schema.ts Schema --out ./schema/schema.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4",
+    "typescript-json-schema": "^0.56.0"
+  }
+}
