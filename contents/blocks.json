@@ -36,6 +36,10 @@
         "fake news: https://buzzap.jp/news/20170404-moritomo-minutes-lost/"
       ]
     },
+    "camp.trainocate.co.jp": {
+      "category": "affiliate",
+      "reasons": ["numerous articles leading to the company website"]
+    },
     "chatgptair": {
       "category": "username",
       "reasons": ["reprinted overseas articles related to ChatGPT and/or AI"]
@@ -246,6 +250,12 @@
     "zero-plus.io": {
       "category": "affiliate",
       "reasons": ["numerous articles leading to the company website"]
+    },
+    "zhcnt9.ilovetranslation.com": {
+      "category": "machine-translation",
+      "reasons": [
+        "numerous articles are reprinted on overseas question websites"
+      ]
     }
   }
 }
