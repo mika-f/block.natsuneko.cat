@@ -247,6 +247,10 @@
       "category": "machine-translation",
       "reasons": ["reprinted and translated articles on StackOverflow"]
     },
+    "zenn.dev/shiro12": {
+      "category": "machine-translation",
+      "reasons": ["reprinted and translated articles on official document"]
+    },
     "zero-plus.io": {
       "category": "affiliate",
       "reasons": ["numerous articles leading to the company website"]
