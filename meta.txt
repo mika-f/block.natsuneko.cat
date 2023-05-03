@@ -1,6 +1,0 @@
-# 一次情報に対してコメントするサイト
-#
-# 購読用 URL:
-#    https://block.natsuneko.cat/meta.txt
-
-*://netnavi.appcard.jp/*

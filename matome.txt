@@ -1,7 +1,0 @@
-# まとめサイト
-#
-# 購読用 URL:
-#    https://block.natsuneko.cat/matome.txt
-
-*://pixiv.navirank.com/*
-*://www.techiedelight.com/*
