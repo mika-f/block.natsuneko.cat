@@ -38,6 +38,7 @@ export default function handler(
       category: item.category,
       reasons: item.reasons,
     });
+    return;
   }
 
   res.status(404).json({
