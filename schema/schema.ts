@@ -17,4 +17,4 @@ type Schema = {
   };
 };
 
-export { Schema };
+export type { Schema };
