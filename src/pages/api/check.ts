@@ -32,17 +32,17 @@ export default function handler(
   }
 
   const item = items[domain];
-  if (!item) {
-    res.status(404).json({
-      domain: "unknown",
-      category: "unknown",
-      reasons: [],
+  if (item) {
+    res.status(200).json({
+      domain,
+      category: item.category,
+      reasons: item.reasons,
     });
   }
 
-  res.status(200).json({
-    domain,
-    category: item.category,
-    reasons: item.reasons,
+  res.status(404).json({
+    domain: "unknown",
+    category: "unknown",
+    reasons: [],
   });
 }
