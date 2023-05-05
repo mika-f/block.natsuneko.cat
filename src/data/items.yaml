@@ -1,6 +1,14 @@
 ---
 # yaml-language-server: $schema=./schema.json
 blockings:
+  '*.dll-files.com':
+    category: spammer
+    reasons:
+      - distribute copy of Windows Kernel DLLs
+  '*.eyewated.com':
+    category: machine-translation
+    reasons:
+      - numerous articles are reprinted on overseas articles
   7banian_com:
     category: username
     reasons:
@@ -22,6 +30,10 @@ blockings:
     reasons:
       - reliability of information is extremely low
       - copyright infringement
+  aprico-media.com:
+    category: affiliate
+    reasons:
+      - 'there is no substance: https://aprico-media.com/posts/3803'
   article2011:
     category: username
     reasons:
@@ -57,10 +69,6 @@ blockings:
     reasons:
       - reprinted overseas articles related to ChatGPT and/or AI
       - hype tweets related to AI
-  dll-files.com:
-    category: spammer
-    reasons:
-      - distribute copy of Windows Kernel DLLs
   download.game155.com:
     category: spammer
     reasons:
@@ -73,10 +81,6 @@ blockings:
     category: spammer
     reasons:
       - distribute copy of Windows Kernel DLLs
-  eyewated.com:
-    category: machine-translation
-    reasons:
-      - numerous articles are reprinted on overseas articles
   getnews.jp:
     category: news
     reasons:
@@ -237,6 +241,10 @@ blockings:
     category: machine-translation
     reasons:
       - reprinted or poor quality
+  www.exefiles.com:
+    category: spammer
+    reasons:
+      - distribute copy of Windows Kernel DLLs
   www.gamingdeputy.com:
     category: machine-translation
     reasons:
@@ -245,11 +253,20 @@ blockings:
     category: curation
     reasons:
       - curated website of technical articles or repositories
+  www.mekan0.com:
+    category: machine-translation
+    reasons:
+      - 'translated by machine: https://www.mekan0.com/ja/how-to-fix-ntoskrnl-exe-blue-screen-of-death-error/'
   www.partitionwizard.com:
     category: affiliate
     reasons:
       - numerous articles leading to the company website
       - 'leading to self website: https://www.partitionwizard.com/partitionmagic/hypervisor-error.html'
+  www.partitionwizard.jp:
+    category: affiliate
+    reasons:
+      - numerous articles leading to the company website
+      - 'leading to self website: https://www.partitionwizard.jp/disk-recovery/ntoskrnlexe-bsod.html'
   www.processlibrary.com:
     category: spammer
     reasons: []
