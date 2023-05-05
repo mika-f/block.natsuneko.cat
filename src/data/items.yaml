@@ -9,6 +9,10 @@ blockings:
     category: machine-translation
     reasons:
       - numerous articles are reprinted on overseas articles
+  '*.unansea.com':
+    category: machine-translation
+    reasons:
+      - numerous articles are reprinted on overseas articles
   7banian_com:
     category: username
     reasons:
@@ -232,6 +236,10 @@ blockings:
     category: spammer
     reasons:
       - distribute copy of Windows Kernel DLLs
+  www.a7la-home.com:
+    category: machine-translation
+    reasons:
+      - numerous articles are reprinted on overseas articles
   www.data-recover.net:
     category: affiliate
     reasons:
@@ -270,6 +278,10 @@ blockings:
   www.processlibrary.com:
     category: spammer
     reasons: []
+  www.reviversoft.com:
+    category: machine-translation
+    reasons:
+      - numerous articles are reprinted on overseas articles
   www.sejuku.net:
     category: affiliate
     reasons:
