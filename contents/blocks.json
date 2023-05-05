@@ -133,13 +133,13 @@
       "category": "username",
       "reasons": ["extremely poor quality of articles"]
     },
-    "navalley_crypto": {
-      "category": "username",
-      "reasons": ["hype tweets related to AI"]
-    },
     "naoki_mochizuki": {
       "category": "username",
       "reasons": ["redirect articles at Qiita"]
+    },
+    "navalley_crypto": {
+      "category": "username",
+      "reasons": ["hype tweets related to AI"]
     },
     "nerotoguri": {
       "category": "username",
@@ -240,6 +240,10 @@
     "www.delftstack.com": {
       "category": "machine-translation",
       "reasons": ["reprinted or poor quality"]
+    },
+    "www.joyk.com": {
+      "category": "curation",
+      "reasons": ["curated website of technical articles or repositories"]
     },
     "www.sejuku.net": {
       "category": "affiliate",
