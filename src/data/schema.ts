@@ -32,10 +32,6 @@ const DESCRIPTIONS: { [k in Category]: string } = {
   username: "A list of usernames that includes accounts selling low-quality information products or resale items for personal gain, accounts sharing scientifically unsupported information, and accounts promoting news with exaggerated advertising. This list targets services primarily used in Japan, such as Twitter, Qiita, and Zenn.",
 };
 
-const LAST_CHILD = Math.floor(CATEGORIES.length / 4) * 4 + 1;
-
-const CENTER_IDX = 4 - (CATEGORIES.length - LAST_CHILD);
-
-export { CATEGORIES, DESCRIPTIONS, LAST_CHILD, CENTER_IDX };
+export { CATEGORIES, DESCRIPTIONS };
 
 export type { Schema };

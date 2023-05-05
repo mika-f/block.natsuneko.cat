@@ -1,14 +1,23 @@
 import React from "react";
+import cls from "clsx";
+import { twMerge } from "tailwind-merge";
 
 import { Inter } from "next/font/google";
-import {
-  CATEGORIES,
-  CENTER_IDX,
-  DESCRIPTIONS,
-  LAST_CHILD,
-} from "@/data/schema";
+import { CATEGORIES, DESCRIPTIONS } from "@/data/schema";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const Heading1 = ({ children }: { children: React.ReactNode }) => {
+  return <h1 className="mb-4 text-3xl md:text-6xl">{children}</h1>;
+};
+
+const Heading2 = ({ children }: { children: React.ReactNode }) => {
+  return <h2 className="mb-3 text-2xl capitalize md:text-3xl">{children}</h2>;
+};
+
+const Paragraph = ({ children }: { children: React.ReactNode }) => {
+  return <p className="text-sm md:text-base">{children}</p>;
+};
 
 export default function Home() {
   const [domain, setDomain] = React.useState<string>("");
@@ -39,12 +48,12 @@ export default function Home() {
 
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
+      className={`container mx-auto flex min-h-screen flex-col items-center p-12 sm:p-16 md:p-24 ${inter.className}`}
     >
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
-        <div className="text-center relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]">
-          <h1 className="text-6xl mb-4">block.natsuneko.cat</h1>
-          <p>
+      <div className="relative w-full max-w-full place-items-center md:flex md:flex-col md:before:absolute md:before:h-[300px] md:before:w-[480px] md:before:-translate-x-1/2 md:before:rounded-full md:before:bg-gradient-radial md:before:from-white md:before:to-transparent md:before:blur-2xl md:before:content-[''] md:after:absolute md:after:-z-20 md:after:h-[180px] md:after:w-[240px] md:after:translate-x-1/3 md:after:bg-gradient-conic md:after:from-sky-200 md:after:via-blue-200 md:after:blur-2xl md:after:content-[''] md:before:dark:bg-gradient-to-br md:before:dark:from-transparent md:before:dark:to-blue-700/10 md:after:dark:from-sky-900 md:after:dark:via-[#0141ff]/40">
+        <div className="relative text-center dark:drop-shadow-[0_0_0.3rem_#ffffff70]">
+          <Heading1>block.natsuneko.cat</Heading1>
+          <Paragraph>
             A community-managed blacklist for{" "}
             <a
               href="https://github.com/iorate/ublacklist"
@@ -53,15 +62,15 @@ export default function Home() {
             >
               uBlackList
             </a>{" "}
-            targeting engineers and developers.
-            <br />
-            You can search for the reasons behind all the content through the
-            following form.
-          </p>
-          <form className="mt-8 flex place-items-center">
+            targeting engineers and developers. You can search for the reasons
+            behind all the content through the following form.
+          </Paragraph>
+        </div>
+        <div className="w-full max-w-full">
+          <form className="mt-8 flex max-w-full place-items-center">
             <input
               type="text"
-              className="flex-grow h-12 text-black text-2xl px-2 rounded-sm appearance-none outline-none"
+              className="h-10 min-w-0 flex-grow appearance-none rounded-sm px-2 text-lg text-black outline-none md:h-12 md:text-2xl"
               name="domain"
               placeholder="natsuneko.cat"
               defaultValue={domain}
@@ -70,7 +79,7 @@ export default function Home() {
             />
             <button
               type="submit"
-              className="h-12 w-36 ml-4 bg-white text-black rounded-sm text-2xl disabled:opacity-50"
+              className="ml-2 h-10 w-20 rounded-sm bg-white text-lg text-black disabled:opacity-50 md:ml-4 md:h-12 md:w-36 md:text-2xl"
               onClick={onCheckDomain}
               disabled={isLoading}
             >
@@ -78,7 +87,7 @@ export default function Home() {
             </button>
           </form>
           {item && (
-            <div className="mt-4 w-full text-left max-w-[628px]">
+            <div className="mt-4 w-full max-w-full text-left text-sm  md:text-base">
               {domain} is{" "}
               {item.category !== "unknown" ? (
                 <span className="text-red-400">listed</span>
@@ -87,13 +96,13 @@ export default function Home() {
               )}
               .{item.category !== "unknown" && <p>Category: {item.category}</p>}
               {item.reasons.length > 0 && (
-                <div className="w-full overflow-hidden">
+                <div className="w-full max-w-full overflow-hidden">
                   Reasons:
-                  <ol className="list-inside pl-4 list-decimal mt-1">
+                  <ol className="mt-1 list-inside list-decimal md:pl-4">
                     {item.reasons.map((w) => {
                       return (
                         <li
-                          className="text-ellipsis whitespace-nowrap overflow-hidden"
+                          className="overflow-hidden text-ellipsis whitespace-nowrap"
                           key={w}
                         >
                           {w}
@@ -107,18 +116,31 @@ export default function Home() {
           )}
         </div>
       </div>
-      <div className="mb-32 mt-16 grid text-center gap-y-6 lg:mb-0 xl:grid-cols-[repeat(8,1fr)] xl:grid-rows-2 xl:gap-x-4 xl:text-left">
-        {CATEGORIES.map((w) => {
+      <div className="mt-16 grid grid-cols-[repeat(12,1fr)] flex-col gap-x-6 gap-y-12 text-center md:mb-0 xl:text-left">
+        {CATEGORIES.map((w, i) => {
+          const isFirstRemainderIdx = {
+            md: Math.floor(CATEGORIES.length / 2) * 2 + 1,
+            lg: Math.floor(CATEGORIES.length / 3) * 3 + 1,
+            xl: Math.floor(CATEGORIES.length / 4) * 4 + 1,
+          };
+
           return (
             <div
               key={w}
-              className={`col-span-2 xl:[&:nth-child(${LAST_CHILD})]:col-[${CENTER_IDX}_/_span_2]`}
+              className={twMerge(
+                cls(
+                  "col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3",
+                  isFirstRemainderIdx.md == i + 1 && "md:col-[_4/span_6]",
+                  isFirstRemainderIdx.lg == i + 1 && "lg:col-[_5/span_4]",
+                  isFirstRemainderIdx.xl <= i + 1 && "xl:col-[span_4/span_4]"
+                )
+              )}
             >
-              <h3 className="text-3xl mb-2 capitalize">{w}</h3>
-              <p className="text-neutral-200 my-2">{DESCRIPTIONS[w]}</p>
+              <Heading2>{w}</Heading2>
+              <Paragraph>{DESCRIPTIONS[w]}</Paragraph>
               <a
                 href={`/${w}.txt`}
-                className="underline"
+                className="text-sm underline md:text-base"
                 target="_blank"
                 rel="noopener noreferrer"
               >
