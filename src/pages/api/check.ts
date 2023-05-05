@@ -1,15 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import fs from "fs";
-import path from "path";
+import { items } from "./_contents";
 
 import type { NextApiRequest, NextApiResponse } from "next";
-import type { Schema } from "../../../schema/schema";
-
-const json = path.join(process.cwd(), "src", "data", "contents.json");
-
-const { blockings: items } = JSON.parse(
-  fs.readFileSync(json, "utf-8")
-) as Schema;
 
 type Data = {
   domain: string;
