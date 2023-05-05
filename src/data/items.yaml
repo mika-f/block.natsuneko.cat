@@ -1,0 +1,283 @@
+---
+# yaml-language-server: $schema=./schema.json
+blockings:
+  7banian_com:
+    category: username
+    reasons:
+      - information product network
+  IchiShiogao:
+    category: username
+    reasons:
+      - reprinted overseas articles related to ChatGPT and/or AI
+  Monmichi0:
+    category: username
+    reasons:
+      - information product network
+  OkonomiLife:
+    category: username
+    reasons:
+      - information product network
+  appbank.net:
+    category: news
+    reasons:
+      - reliability of information is extremely low
+      - copyright infringement
+  article2011:
+    category: username
+    reasons:
+      - information product network
+  asu__web83:
+    category: username
+    reasons:
+      - information product network
+  baby-degu:
+    category: username
+    reasons:
+      - translated articles on other websites
+  bukuta_3:
+    category: username
+    reasons:
+      - reprinted overseas articles related to ChatGPT and/or AI
+  buzzap.jp:
+    category: news
+    reasons:
+      - 'fake news: https://buzzap.jp/news/20200129-tokyo2020-ioc-who-2019ncov/'
+      - 'fake news: https://buzzap.jp/news/20171011-kibou-office/'
+      - 'fake news: https://buzzap.jp/news/20170404-moritomo-minutes-lost/'
+  camp.trainocate.co.jp:
+    category: affiliate
+    reasons:
+      - numerous articles leading to the company website
+  chatgptair:
+    category: username
+    reasons:
+      - reprinted overseas articles related to ChatGPT and/or AI
+  daichi_mu:
+    category: username
+    reasons:
+      - reprinted overseas articles related to ChatGPT and/or AI
+      - hype tweets related to AI
+  dll-files.com:
+    category: spammer
+    reasons:
+      - distribute copy of Windows Kernel DLLs
+  download.game155.com:
+    category: spammer
+    reasons:
+      - distribute copy of Windows Kernel DLLs
+  driversol.com:
+    category: spammer
+    reasons:
+      - distribute copy of Windows Kernel DLLs
+  error-dll.info:
+    category: spammer
+    reasons:
+      - distribute copy of Windows Kernel DLLs
+  eyewated.com:
+    category: machine-translation
+    reasons:
+      - numerous articles are reprinted on overseas articles
+  getnews.jp:
+    category: news
+    reasons:
+      - extremely poor quality of articles
+  hatake_tax:
+    category: username
+    reasons:
+      - information product network
+      - extremely poor quality of tweets
+  help.diary.to:
+    category: machine-translation
+    reasons:
+      - numerous articles are reprinted on overseas question websites
+  iritec_jp:
+    category: username
+    reasons:
+      - reprinted overseas articles related to ChatGPT and/or AI
+      - hype tweets related to AI
+      - not a researcher
+  ja.101-help.com:
+    category: machine-translation
+    reasons:
+      - numerous articles are reprinted on overseas question websites
+  ja.letmeknow.ch:
+    category: machine-translation
+    reasons:
+      - numerous articles are reprinted on overseas question websites
+  jbpress.ismedia.jp:
+    category: news
+    reasons: []
+  jp.minitool.com:
+    category: machine-translation
+    reasons:
+      - numerous articles are reprinted on overseas question websites
+  jun_buppan:
+    category: username
+    reasons:
+      - information product network
+      - scalper
+  kub81pre:
+    category: username
+    reasons:
+      - information product network
+  magazine.techacademy.jp:
+    category: affiliate
+    reasons:
+      - numerous articles leading to the company website
+  masaki_0728:
+    category: username
+    reasons:
+      - reprinted overseas articles related to ChatGPT and/or AI
+      - hype tweets related to AI
+  moneynekonyan:
+    category: username
+    reasons:
+      - information product network
+  nameless_sn:
+    category: username
+    reasons:
+      - extremely poor quality of articles
+  naoki_mochizuki:
+    category: username
+    reasons:
+      - redirect articles at Qiita
+  navalley_crypto:
+    category: username
+    reasons:
+      - hype tweets related to AI
+  nerotoguri:
+    category: username
+    reasons:
+      - 'reprinted tweet: https://twitter.com/nerotoguri/status/1654365216002691074'
+  netnavi.appcard.jp:
+    category: meta
+    reasons:
+      - not first party website
+  piromin8889:
+    category: username
+    reasons:
+      - information product network
+  pixiv.navirank.com:
+    category: curation
+    reasons:
+      - curated website of pixiv
+  rai_mental_tips:
+    category: username
+    reasons:
+      - medical hoax
+  rana_kualu:
+    category: username
+    reasons:
+      - translated articles on other websites
+  realengineer.link:
+    category: affiliate
+    reasons:
+      - numerous articles leading to the company website
+  recoverit.wondershare.jp:
+    category: machine-translation
+    reasons:
+      - numerous articles are reprinted on overseas question websites
+  rocketnews24.com:
+    category: news
+    reasons:
+      - extremely poor quality of articles
+  ryuji_affiliate:
+    category: username
+    reasons:
+      - information product network
+  saksak_inv:
+    category: username
+    reasons:
+      - 'reprinted tweet: https://twitter.com/saksak_inv/status/1654362876591902720'
+  samu_shisan:
+    category: username
+    reasons:
+      - information product network
+  shin7_business:
+    category: username
+    reasons:
+      - information product network
+  shota7180:
+    category: username
+    reasons:
+      - reprinted overseas articles related to ChatGPT and/or AI
+      - hype tweets related to AI
+  souken.shikigaku.jp:
+    category: news
+    reasons: []
+  studyhacker.net:
+    category: news
+    reasons:
+      - low credibility
+  sunsuke2:
+    category: username
+    reasons:
+      - information product network
+  tairo:
+    category: username
+    reasons:
+      - reprinted overseas articles related to ChatGPT and/or AI
+      - hype tweets related to AI
+      - 'fake news: https://twitter.com/tairo/status/1650722673797005313 -- annotated as fake news on Twitter, by Google employee'
+  usutaku_com:
+    category: username
+    reasons:
+      - reprinted overseas articles related to ChatGPT and/or AI
+      - hype tweets related to AI
+  windll.com:
+    category: spammer
+    reasons:
+      - distribute copy of Windows Kernel DLLs
+  www.data-recover.net:
+    category: affiliate
+    reasons:
+      - numerous articles leading to the company website
+      - 'leading to self website: http://www.data-recover.net/ja/computer/ntdll-dll-file.html'
+  www.delftstack.com:
+    category: machine-translation
+    reasons:
+      - reprinted or poor quality
+  www.gamingdeputy.com:
+    category: machine-translation
+    reasons:
+      - translated articles on other websites
+  www.joyk.com:
+    category: curation
+    reasons:
+      - curated website of technical articles or repositories
+  www.partitionwizard.com:
+    category: affiliate
+    reasons:
+      - numerous articles leading to the company website
+      - 'leading to self website: https://www.partitionwizard.com/partitionmagic/hypervisor-error.html'
+  www.processlibrary.com:
+    category: spammer
+    reasons: []
+  www.sejuku.net:
+    category: affiliate
+    reasons:
+      - numerous articles leading to the company website
+  www.techiedelight.com:
+    category: machine-translation
+    reasons:
+      - online compiler website, but reprinted source codes on GitHub
+  www.tunesbro.jp:
+    category: machine-translation
+    reasons:
+      - reprinted or poor quality
+  www.web-dev-qa-db-ja.com:
+    category: machine-translation
+    reasons:
+      - reprinted and translated articles on StackOverflow
+  zenn.dev/shiro12:
+    category: machine-translation
+    reasons:
+      - reprinted and translated articles on official document
+  zero-plus.io:
+    category: affiliate
+    reasons:
+      - numerous articles leading to the company website
+  zhcnt9.ilovetranslation.com:
+    category: machine-translation
+    reasons:
+      - numerous articles are reprinted on overseas question websites
