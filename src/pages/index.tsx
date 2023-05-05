@@ -1,53 +1,14 @@
 import React from "react";
 
 import { Inter } from "next/font/google";
+import {
+  CATEGORIES,
+  CENTER_IDX,
+  DESCRIPTIONS,
+  LAST_CHILD,
+} from "@/data/schema";
 
 const inter = Inter({ subsets: ["latin"] });
-
-type Category = {
-  name: string;
-  description: string;
-  link: string;
-};
-
-const categories: Category[] = [
-  {
-    name: "Affiliate",
-    description:
-      "A list that includes affiliate websites designed to redirect traffic to own website and technical articles promoting own products.",
-    link: "/affiliate.txt",
-  },
-  {
-    name: "Curation",
-    description:
-      "A list that includes curation that reprints articles and/or contents from the source website.",
-    link: "/curation.txt",
-  },
-  {
-    name: "Translation",
-    description:
-      "A list that includes mechanically and/or manually translated and reprinted articles and/or contents from the source website such as StackOverflow.",
-    link: "/machine-translation.txt",
-  },
-  {
-    name: "Meta",
-    description:
-      "A list that includes sites where third parties add comments or other content to the source website, except some message boards like Reddit.",
-    link: "/meta.txt",
-  },
-  {
-    name: "News",
-    description:
-      "A list of news sites that contains politically biased and/or scientifically inaccurate articles and/or have a history of disseminating misinformation or fake news. Evidence is available for all relevant articles in the past.",
-    link: "/news.txt",
-  },
-  {
-    name: "Usernames",
-    description:
-      "A list of usernames that includes accounts selling low-quality information products or resale items for personal gain,  accounts sharing scientifically unsupported information, and accounts promoting news with exaggerated advertising. This list targets services primarily used in Japan, such as Twitter, Qiita, and Zenn.",
-    link: "/username.txt",
-  },
-];
 
 export default function Home() {
   const [domain, setDomain] = React.useState<string>("");
@@ -146,18 +107,17 @@ export default function Home() {
           )}
         </div>
       </div>
-
       <div className="mb-32 mt-16 grid text-center gap-y-6 lg:mb-0 xl:grid-cols-[repeat(8,1fr)] xl:grid-rows-2 xl:gap-x-4 xl:text-left">
-        {categories.map((w) => {
+        {CATEGORIES.map((w) => {
           return (
             <div
-              key={w.link}
-              className="col-span-2 xl:[&:nth-child(5)]:col-[3_/_span_2]"
+              key={w}
+              className={`col-span-2 xl:[&:nth-child(${LAST_CHILD})]:col-[${CENTER_IDX}_/_span_2]`}
             >
-              <h3 className="text-3xl mb-2">{w.name}</h3>
-              <p className="text-neutral-200 my-2">{w.description}</p>
+              <h3 className="text-3xl mb-2 capitalize">{w}</h3>
+              <p className="text-neutral-200 my-2">{DESCRIPTIONS[w]}</p>
               <a
-                href={w.link}
+                href={`/${w}.txt`}
                 className="underline"
                 target="_blank"
                 rel="noopener noreferrer"

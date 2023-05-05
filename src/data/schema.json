@@ -8,6 +8,7 @@
                 "machine-translation",
                 "meta",
                 "news",
+                "spammer",
                 "username"
             ],
             "type": "string"

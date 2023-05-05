@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "schema": "typescript-json-schema schema/schema.ts Schema --out ./schema/schema.json"
+    "schema": "typescript-json-schema src/data/schema.ts Schema --out ./src/data/schema.json"
   },
   "keywords": [],
   "author": "",
