@@ -141,6 +141,12 @@
       "category": "username",
       "reasons": ["redirect articles at Qiita"]
     },
+    "nerotoguri": {
+      "category": "username",
+      "reasons": [
+        "reprinted tweet: https://twitter.com/nerotoguri/status/1654365216002691074"
+      ]
+    },
     "netnavi.appcard.jp": {
       "category": "meta",
       "reasons": ["not first party website"]
@@ -182,6 +188,12 @@
     "ryuji_affiliate": {
       "category": "username",
       "reasons": ["information product network"]
+    },
+    "saksak_inv": {
+      "category": "username",
+      "reasons": [
+        "reprinted tweet: https://twitter.com/saksak_inv/status/1654362876591902720"
+      ]
     },
     "samu_shisan": {
       "category": "username",
