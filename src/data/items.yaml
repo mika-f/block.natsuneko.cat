@@ -5,7 +5,15 @@ blockings:
     category: machine-translation
     reasons:
       - numerous articles are reprinted on overseas question websites
+  '*.dll-download-system.com':
+    category: spammer
+    reasons:
+      - distribute copy of Windows Kernel DLLs
   '*.dll-files.com':
+    category: spammer
+    reasons:
+      - distribute copy of Windows Kernel DLLs
+  '*.error-dll.info':
     category: spammer
     reasons:
       - distribute copy of Windows Kernel DLLs
@@ -21,6 +29,10 @@ blockings:
     category: machine-translation
     reasons:
       - numerous articles are reprinted on overseas question websites
+  '*.nex-software.com':
+    category: spammer
+    reasons:
+      - distribute copy of Windows Kernel DLLs
   '*.unansea.com':
     category: machine-translation
     reasons:
@@ -115,6 +127,14 @@ blockings:
     category: machine-translation
     reasons:
       - numerous articles are reprinted on overseas question websites
+  hoshusokuhou:
+    category: username
+    reasons:
+      - 'fake news: https://hosyusokuhou.jp/archives/48861621.html'
+  hosyusokuhou.jp:
+    category: news
+    reasons:
+      - 'fake news: https://hosyusokuhou.jp/archives/48861621.html'
   htmk73:
     category: username
     reasons:
@@ -143,6 +163,10 @@ blockings:
     category: username
     reasons:
       - information product network
+  kuron_nano:
+    category: username
+    reasons:
+      - 'fake news: https://twitter.com/kuron_nano/status/1574121450860007424'
   magazine.techacademy.jp:
     category: affiliate
     reasons:
@@ -231,6 +255,11 @@ blockings:
       - 'hate speech: https://twitter.com/satetu4401/status/1654656648122867712'
       - 'hate speech: https://twitter.com/satetu4401/status/679677252666134528'
       - 'hate speech: https://twitter.com/satetu4401/status/678843052744531968'
+  sharenewsjapan1:
+    category: username
+    reasons:
+      - 'fake news: https://snjpn.net/archives/159674'
+      - 'fake news: https://sn-jp.com/archives/72073'
   shin7_business:
     category: username
     reasons:
@@ -240,6 +269,11 @@ blockings:
     reasons:
       - reprinted overseas articles related to ChatGPT and/or AI
       - hype tweets related to AI
+  sn-jp.com:
+    category: news
+    reasons:
+      - 'fake news: https://snjpn.net/archives/159674'
+      - 'fake news: https://sn-jp.com/archives/72073'
   souken.shikigaku.jp:
     category: news
     reasons: []
@@ -251,6 +285,10 @@ blockings:
     category: username
     reasons:
       - information product network
+  systemexplorer.net:
+    category: spammer
+    reasons:
+      - distribute copy of Windows Kernel DLLs
   tairo:
     category: username
     reasons:
