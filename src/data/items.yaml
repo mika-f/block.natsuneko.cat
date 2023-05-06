@@ -1,6 +1,10 @@
 ---
 # yaml-language-server: $schema=./schema.json
 blockings:
+  '*.101-help.com':
+    category: machine-translation
+    reasons:
+      - numerous articles are reprinted on overseas question websites
   '*.dll-files.com':
     category: spammer
     reasons:
@@ -9,6 +13,14 @@ blockings:
     category: machine-translation
     reasons:
       - numerous articles are reprinted on overseas articles
+  '*.letmeknow.ch':
+    category: machine-translation
+    reasons:
+      - numerous articles are reprinted on overseas question websites
+  '*.minitool.com':
+    category: machine-translation
+    reasons:
+      - numerous articles are reprinted on overseas question websites
   '*.unansea.com':
     category: machine-translation
     reasons:
@@ -114,14 +126,6 @@ blockings:
       - reprinted overseas articles related to ChatGPT and/or AI
       - hype tweets related to AI
       - not a researcher
-  ja.101-help.com:
-    category: machine-translation
-    reasons:
-      - numerous articles are reprinted on overseas question websites
-  ja.letmeknow.ch:
-    category: machine-translation
-    reasons:
-      - numerous articles are reprinted on overseas question websites
   jbpress.ismedia.jp:
     category: news
     reasons: []
@@ -130,10 +134,6 @@ blockings:
     reasons:
       - 'fake news: http://jin115.com/archives/51753195.html'
       - 'fake news: http://jin115.com/archives/51757031.html'
-  jp.minitool.com:
-    category: machine-translation
-    reasons:
-      - numerous articles are reprinted on overseas question websites
   jun_buppan:
     category: username
     reasons:
