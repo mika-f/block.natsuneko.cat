@@ -37,6 +37,10 @@ blockings:
     category: machine-translation
     reasons:
       - numerous articles are reprinted on overseas articles
+  08broc:
+    category: username
+    reasons:
+      - 'fake news: https://twitter.com/08broc/status/1611698504472354816'
   7banian_com:
     category: username
     reasons:
@@ -79,6 +83,10 @@ blockings:
     reasons:
       - 'fake news: http://blog.esuteru.com/archives/2152458.html'
       - 'fake news: http://blog.esuteru.com/archives/2571764.html'
+  blogos.com:
+    category: news
+    reasons:
+      - extremely politically biased
   bukuta_3:
     category: username
     reasons:
@@ -102,6 +110,10 @@ blockings:
     reasons:
       - reprinted overseas articles related to ChatGPT and/or AI
       - hype tweets related to AI
+  dohypo:
+    category: username
+    reasons:
+      - 'fake tweet: https://twitter.com/dohypo/status/1655530115932229633'
   download.game155.com:
     category: spammer
     reasons:
@@ -127,6 +139,10 @@ blockings:
     category: machine-translation
     reasons:
       - numerous articles are reprinted on overseas question websites
+  himuro398:
+    category: username
+    reasons:
+      - 'fake news: https://twitter.com/himuro398/status/1646792913282813953'
   hoshusokuhou:
     category: username
     reasons:
@@ -146,6 +162,10 @@ blockings:
       - reprinted overseas articles related to ChatGPT and/or AI
       - hype tweets related to AI
       - not a researcher
+  j_sato:
+    category: username
+    reasons:
+      - 'fake news: https://twitter.com/j_sato/status/1631850811411275776'
   jbpress.ismedia.jp:
     category: news
     reasons: []
@@ -154,6 +174,18 @@ blockings:
     reasons:
       - 'fake news: http://jin115.com/archives/51753195.html'
       - 'fake news: http://jin115.com/archives/51757031.html'
+  jsp-hokkaido.com:
+    category: spammer
+    reasons:
+      - pseudoscience
+  jsp-osaka.com:
+    category: spammer
+    reasons:
+      - pseudoscience
+  jsp-tokyo.com:
+    category: spammer
+    reasons:
+      - pseudoscience
   jun_buppan:
     category: username
     reasons:
@@ -167,6 +199,10 @@ blockings:
     category: username
     reasons:
       - 'fake news: https://twitter.com/kuron_nano/status/1574121450860007424'
+  kuu331108:
+    category: username
+    reasons:
+      - 'fake news: https://twitter.com/kuu331108/status/1650287044516802560'
   magazine.techacademy.jp:
     category: affiliate
     reasons:
@@ -180,6 +216,18 @@ blockings:
     category: username
     reasons:
       - information product network
+  mulder_17:
+    category: username
+    reasons:
+      - 'fake news: https://twitter.com/mulder_17/status/1647178589752918016'
+  nagunagumomo:
+    category: username
+    reasons:
+      - 'fake news: https://twitter.com/nagunagumomo/status/1632187923318837248'
+  nahoko.spiess:
+    category: username
+    reasons:
+      - 'fake news: https://www.facebook.com//posts/pfbid02GFQwwCERKp83j3VJuL5jtad5gfxTDeSm9yDR2PiRipc5rS5BQHDG4YfYQk46fjvyl'
   nameless_sn:
     category: username
     reasons:
@@ -295,6 +343,23 @@ blockings:
       - reprinted overseas articles related to ChatGPT and/or AI
       - hype tweets related to AI
       - 'fake news: https://twitter.com/tairo/status/1650722673797005313 -- annotated as fake news on Twitter, by Google employee'
+  thepeoplesvoice.tv:
+    category: news
+    reasons:
+      - 'fake news: https://thepeoplesvoice.tv/bbc-news-finally-admits-covid-vaccines-caused-excess-deaths-in-2022/'
+      - 'fake news: https://thepeoplesvoice.tv/bill-gates-arrest-warrant-issued-in-philippines-for-premeditated-murder-linked-to-vaccine-roll-out/'
+  touyoui:
+    category: username
+    reasons:
+      - 'fake news: https://twitter.com/touyoui/status/1647019370009497600'
+  tweetsoku.com:
+    category: news
+    reasons:
+      - 'fake news: https://twitter.com/tweetsoku1/status/1652792508315836418'
+  tweetsoku1:
+    category: username
+    reasons:
+      - 'fake news: https://twitter.com/tweetsoku1/status/1652792508315836418'
   usutaku_com:
     category: username
     reasons:
@@ -329,6 +394,10 @@ blockings:
     category: curation
     reasons:
       - curated website of technical articles or repositories
+  www.jspkk.co.jp:
+    category: spammer
+    reasons:
+      - pseudoscience
   www.mekan0.com:
     category: machine-translation
     reasons:
@@ -384,6 +453,10 @@ blockings:
       - 'fake news: http://yaraon.blog109.fc2.com/blog-entry-2100.html'
       - 'fake news: http://yaraon.blog109.fc2.com/blog-entry-5566.html'
       - 'fake news: http://yaraon.blog109.fc2.com/blog-entry-7375.html'
+  yrzXlZARNuPcPsv:
+    category: username
+    reasons:
+      - 'fake news: https://twitter.com/yrzxlzarnupcpsv/status/1639919945034371072'
   yunakiti:
     category: username
     reasons:
