@@ -41,6 +41,12 @@ blockings:
     category: username
     reasons:
       - 'fake news: https://twitter.com/08broc/status/1611698504472354816'
+  2ch-m.info:
+    category: curation
+    reasons: []
+  2chmm.com:
+    category: curation
+    reasons: []
   7banian_com:
     category: username
     reasons:
@@ -105,6 +111,10 @@ blockings:
     category: username
     reasons:
       - reprinted overseas articles related to ChatGPT and/or AI
+  cutest_animal1:
+    category: username
+    reasons:
+      - 'reprinted tweet: https://twitter.com/cutest_animal1/status/1664924495948161030'
   daichi_mu:
     category: username
     reasons:
@@ -126,6 +136,10 @@ blockings:
     category: spammer
     reasons:
       - distribute copy of Windows Kernel DLLs
+  etoriasan:
+    category: username
+    reasons:
+      - 'reprinted tweet: https://twitter.com/etoriasan/status/1664935707444408332'
   getnews.jp:
     category: news
     reasons:
@@ -166,6 +180,10 @@ blockings:
     category: username
     reasons:
       - 'fake news: https://twitter.com/j_sato/status/1631850811411275776'
+  japantank:
+    category: username
+    reasons:
+      - 'fake news: https://twitter.com/japantank/status/1664842288898654208'
   jbpress.ismedia.jp:
     category: news
     reasons: []
@@ -352,6 +370,16 @@ blockings:
     category: username
     reasons:
       - 'fake news: https://twitter.com/touyoui/status/1647019370009497600'
+  tsuisoku.com:
+    category: curation
+    reasons:
+      - curated tweets
+      - trending blog
+  tsuisoku777:
+    category: curation
+    reasons:
+      - curated tweets
+      - trending blog
   tweetsoku.com:
     category: news
     reasons:
@@ -457,6 +485,10 @@ blockings:
     category: username
     reasons:
       - 'fake news: https://twitter.com/yrzxlzarnupcpsv/status/1639919945034371072'
+  yuko_candida:
+    category: username
+    reasons:
+      - 'fake news: https://twitter.com/yuko_candida/status/1664297397168775170'
   yunakiti:
     category: username
     reasons:
