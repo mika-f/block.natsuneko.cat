@@ -343,6 +343,10 @@ blockings:
   souken.shikigaku.jp:
     category: news
     reasons: []
+  PutinsWar0224:
+    category: username
+    reasons:
+      - "fake news: https://twitter.com/PutinsWar0224/status/1672838768351653888"
   studyhacker.net:
     category: news
     reasons:
