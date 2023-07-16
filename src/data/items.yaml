@@ -63,6 +63,18 @@ blockings:
     category: username
     reasons:
       - information product network
+  PutinsWar04473:
+    category: username
+    reasons:
+      - 'fake news: https://twitter.com/PutinsWar0224/status/1672838768351653888'
+  adbu-examiners.everitas.in:
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
+  aladdinme.com:
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
   appbank.net:
     category: news
     reasons:
@@ -107,10 +119,18 @@ blockings:
     category: affiliate
     reasons:
       - numerous articles leading to the company website
+  cardinaltlv.com:
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
   chatgptair:
     category: username
     reasons:
       - reprinted overseas articles related to ChatGPT and/or AI
+  clevercall.com.au:
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
   cutest_animal1:
     category: username
     reasons:
@@ -132,6 +152,10 @@ blockings:
     category: spammer
     reasons:
       - distribute copy of Windows Kernel DLLs
+  eavafrica.com:
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
   error-dll.info:
     category: spammer
     reasons:
@@ -144,6 +168,10 @@ blockings:
     category: news
     reasons:
       - extremely poor quality of articles
+  giantwheelmag.com:
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
   hatake_tax:
     category: username
     reasons:
@@ -165,6 +193,10 @@ blockings:
     category: news
     reasons:
       - 'fake news: https://hosyusokuhou.jp/archives/48861621.html'
+  hotspot.mg:
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
   htmk73:
     category: username
     reasons:
@@ -209,6 +241,10 @@ blockings:
     reasons:
       - information product network
       - scalper
+  justice.gouv.cd:
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
   kub81pre:
     category: username
     reasons:
@@ -221,6 +257,10 @@ blockings:
     category: username
     reasons:
       - 'fake news: https://twitter.com/kuu331108/status/1650287044516802560'
+  linknettecnologia.com.br:
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
   magazine.techacademy.jp:
     category: affiliate
     reasons:
@@ -230,6 +270,10 @@ blockings:
     reasons:
       - reprinted overseas articles related to ChatGPT and/or AI
       - hype tweets related to AI
+  miralsa.com.mx:
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
   moneynekonyan:
     category: username
     reasons:
@@ -238,6 +282,10 @@ blockings:
     category: username
     reasons:
       - 'fake news: https://twitter.com/mulder_17/status/1647178589752918016'
+  museum3d.com.ua:
+    category: username
+    reasons:
+      - 'fake news: https://twitter.com/08broc/status/161169850527354816'
   nagunagumomo:
     category: username
     reasons:
@@ -343,10 +391,6 @@ blockings:
   souken.shikigaku.jp:
     category: news
     reasons: []
-  PutinsWar0224:
-    category: username
-    reasons:
-      - "fake news: https://twitter.com/PutinsWar0224/status/1672838768351653888"
   studyhacker.net:
     category: news
     reasons:
@@ -365,6 +409,10 @@ blockings:
       - reprinted overseas articles related to ChatGPT and/or AI
       - hype tweets related to AI
       - 'fake news: https://twitter.com/tairo/status/1650722673797005313 -- annotated as fake news on Twitter, by Google employee'
+  thebarkinglot.ae:
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
   thepeoplesvoice.tv:
     category: news
     reasons:
@@ -414,6 +462,10 @@ blockings:
     category: machine-translation
     reasons:
       - reprinted or poor quality
+  www.drapesbydesign.co.uk:
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
   www.exefiles.com:
     category: spammer
     reasons:
@@ -463,6 +515,10 @@ blockings:
     category: machine-translation
     reasons:
       - reprinted or poor quality
+  www.universomw8.com.br:
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
   www.web-dev-qa-db-ja.com:
     category: machine-translation
     reasons:
