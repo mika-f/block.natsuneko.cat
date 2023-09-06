@@ -25,18 +25,46 @@ blockings:
     category: machine-translation
     reasons:
       - numerous articles are reprinted on overseas question websites
+  '*.mackenzieriverpizza.com':
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
   '*.minitool.com':
     category: machine-translation
     reasons:
       - numerous articles are reprinted on overseas question websites
+  '*.mixpss.com':
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
+  '*.naaa.gov.kh':
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
   '*.nex-software.com':
     category: spammer
     reasons:
       - distribute copy of Windows Kernel DLLs
+  '*.nomomm.com':
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
+  '*.prtrcambodiamoe.gov.kh':
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
+  '*.ssnob.com':
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
   '*.unansea.com':
     category: machine-translation
     reasons:
       - numerous articles are reprinted on overseas articles
+  '*.y-shoot.com':
+    category: spammer
+    reasons:
+      - mirroring websites and navigate to spam website
   08broc:
     category: username
     reasons:
@@ -127,6 +155,10 @@ blockings:
     category: username
     reasons:
       - reprinted overseas articles related to ChatGPT and/or AI
+  cicada3301_kig:
+    category: username
+    reasons:
+      - 'fake tweet: https://twitter.com/cicada3301_kig/status/1690271002771718144'
   clevercall.com.au:
     category: spammer
     reasons:
@@ -369,6 +401,13 @@ blockings:
       - 'hate speech: https://twitter.com/satetu4401/status/1654656648122867712'
       - 'hate speech: https://twitter.com/satetu4401/status/679677252666134528'
       - 'hate speech: https://twitter.com/satetu4401/status/678843052744531968'
+  seitai_official:
+    category: username
+    reasons:
+      - there is a high possibility that this user is a malicious user who presses to delete tweets that have become a buzz.
+      - https://twitter.com/seitai_official/status/1688183319849234434
+      - https://twitter.com/seitai_official/status/1687788632172900352
+      - https://twitter.com/seitai_official/status/1687786126508253184
   sharenewsjapan1:
     category: username
     reasons:
