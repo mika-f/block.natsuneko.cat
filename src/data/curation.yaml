@@ -1,0 +1,23 @@
+---
+# yaml-language-server: $schema=./schema.json
+description: A list that includes curation that reprints articles and/or contents from the source website.
+items:
+  2ch-m.info:
+    reasons: []
+  2chmm.com:
+    reasons: []
+  pixiv.navirank.com:
+    reasons:
+      - curated website of pixiv
+  tsuisoku.com:
+    reasons:
+      - curated tweets
+      - trending blog
+  tsuisoku777:
+    reasons:
+      - curated tweets
+      - trending blog
+  www.joyk.com:
+    reasons:
+      - curated website of technical articles or repositories
+name: Curation

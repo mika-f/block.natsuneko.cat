@@ -1,0 +1,109 @@
+---
+# yaml-language-server: $schema=./schema.json
+description: A list that includes spam, scam, phishing or extremely unreliable website. For example, sites that somehow distribute Windows Kernel DLLs, copies of shopping sites, and others.
+items:
+  "*.dll-download-system.com":
+    reasons:
+      - distribute copy of Windows Kernel DLLs
+  "*.dll-files.com":
+    reasons:
+      - distribute copy of Windows Kernel DLLs
+  "*.error-dll.info":
+    reasons:
+      - distribute copy of Windows Kernel DLLs
+  "*.mackenzieriverpizza.com":
+    reasons:
+      - mirroring websites and navigate to spam website
+  "*.mixpss.com":
+    reasons:
+      - mirroring websites and navigate to spam website
+  "*.naaa.gov.kh":
+    reasons:
+      - mirroring websites and navigate to spam website
+  "*.nex-software.com":
+    reasons:
+      - distribute copy of Windows Kernel DLLs
+  "*.nomomm.com":
+    reasons:
+      - mirroring websites and navigate to spam website
+  "*.prtrcambodiamoe.gov.kh":
+    reasons:
+      - mirroring websites and navigate to spam website
+  "*.ssnob.com":
+    reasons:
+      - mirroring websites and navigate to spam website
+  "*.y-shoot.com":
+    reasons:
+      - mirroring websites and navigate to spam website
+  adbu-examiners.everitas.in:
+    reasons:
+      - mirroring websites and navigate to spam website
+  aladdinme.com:
+    reasons:
+      - mirroring websites and navigate to spam website
+  cardinaltlv.com:
+    reasons:
+      - mirroring websites and navigate to spam website
+  clevercall.com.au:
+    reasons:
+      - mirroring websites and navigate to spam website
+  download.game155.com:
+    reasons:
+      - distribute copy of Windows Kernel DLLs
+  driversol.com:
+    reasons:
+      - distribute copy of Windows Kernel DLLs
+  eavafrica.com:
+    reasons:
+      - mirroring websites and navigate to spam website
+  error-dll.info:
+    reasons:
+      - distribute copy of Windows Kernel DLLs
+  giantwheelmag.com:
+    reasons:
+      - mirroring websites and navigate to spam website
+  hotspot.mg:
+    reasons:
+      - mirroring websites and navigate to spam website
+  jsp-hokkaido.com:
+    reasons:
+      - pseudoscience
+  jsp-osaka.com:
+    reasons:
+      - pseudoscience
+  jsp-tokyo.com:
+    reasons:
+      - pseudoscience
+  justice.gouv.cd:
+    reasons:
+      - mirroring websites and navigate to spam website
+  linknettecnologia.com.br:
+    reasons:
+      - mirroring websites and navigate to spam website
+  miralsa.com.mx:
+    reasons:
+      - mirroring websites and navigate to spam website
+  systemexplorer.net:
+    reasons:
+      - distribute copy of Windows Kernel DLLs
+  thebarkinglot.ae:
+    reasons:
+      - mirroring websites and navigate to spam website
+  windll.com:
+    reasons:
+      - distribute copy of Windows Kernel DLLs
+  www.drapesbydesign.co.uk:
+    reasons:
+      - mirroring websites and navigate to spam website
+  www.exefiles.com:
+    reasons:
+      - distribute copy of Windows Kernel DLLs
+  www.jspkk.co.jp:
+    reasons:
+      - pseudoscience
+  www.processlibrary.com:
+    reasons: []
+  www.universomw8.com.br:
+    reasons:
+      - mirroring websites and navigate to spam website
+name: Spammer

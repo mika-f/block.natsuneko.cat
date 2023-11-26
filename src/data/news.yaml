@@ -1,0 +1,67 @@
+---
+# yaml-language-server: $schema=./schema.json
+description: A list of news sites that contains politically biased and/or scientifically inaccurate articles and/or have a history of disseminating misinformation or fake news. Evidence is available for all relevant articles in the past.
+items:
+  appbank.net:
+    reasons:
+      - reliability of information is extremely low
+      - copyright infringement
+  blog.esuteru.com:
+    reasons:
+      - "fake news: http://blog.esuteru.com/archives/2152458.html"
+      - "fake news: http://blog.esuteru.com/archives/2571764.html"
+  blogos.com:
+    reasons:
+      - extremely politically biased
+  buzzap.jp:
+    reasons:
+      - "fake news: https://buzzap.jp/news/20200129-tokyo2020-ioc-who-2019ncov/"
+      - "fake news: https://buzzap.jp/news/20171011-kibou-office/"
+      - "fake news: https://buzzap.jp/news/20170404-moritomo-minutes-lost/"
+  getnews.jp:
+    reasons:
+      - extremely poor quality of articles
+  hosyusokuhou.jp:
+    reasons:
+      - "fake news: https://hosyusokuhou.jp/archives/48861621.html"
+  jbpress.ismedia.jp:
+    reasons: []
+  jin115.com:
+    reasons:
+      - "fake news: http://jin115.com/archives/51753195.html"
+      - "fake news: http://jin115.com/archives/51757031.html"
+  rocketnews24.com:
+    reasons:
+      - extremely poor quality of articles
+  sn-jp.com:
+    reasons:
+      - "fake news: https://snjpn.net/archives/159674"
+      - "fake news: https://sn-jp.com/archives/72073"
+  souken.shikigaku.jp:
+    reasons: []
+  studyhacker.net:
+    reasons:
+      - low credibility
+  thepeoplesvoice.tv:
+    reasons:
+      - "fake news: https://thepeoplesvoice.tv/bbc-news-finally-admits-covid-vaccines-caused-excess-deaths-in-2022/"
+      - "fake news: https://thepeoplesvoice.tv/bill-gates-arrest-warrant-issued-in-philippines-for-premeditated-murder-linked-to-vaccine-roll-out/"
+  tweetsoku.com:
+    reasons:
+      - "fake news: https://twitter.com/tweetsoku1/status/1652792508315836418"
+  yaraon-blog.com:
+    reasons:
+      - "fake news: http://yaraon.blog109.fc2.com/blog-entry-2100.html"
+      - "fake news: http://yaraon.blog109.fc2.com/blog-entry-5566.html"
+      - "fake news: http://yaraon.blog109.fc2.com/blog-entry-7375.html"
+  yaraon.blog109.fc2.com:
+    reasons:
+      - "fake news: http://yaraon.blog109.fc2.com/blog-entry-2100.html"
+      - "fake news: http://yaraon.blog109.fc2.com/blog-entry-5566.html"
+      - "fake news: http://yaraon.blog109.fc2.com/blog-entry-7375.html"
+  yron-anime-life.blogspot.jp:
+    reasons:
+      - "fake news: http://yaraon.blog109.fc2.com/blog-entry-2100.html"
+      - "fake news: http://yaraon.blog109.fc2.com/blog-entry-5566.html"
+      - "fake news: http://yaraon.blog109.fc2.com/blog-entry-7375.html"
+name: News

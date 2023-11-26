@@ -1,5 +1,5 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import { items } from "./_contents";
+import { findByDomain } from "../../services/contents";
 
 import type { NextApiRequest, NextApiResponse } from "next";
 
@@ -23,7 +23,7 @@ export default function handler(
     return;
   }
 
-  const item = items[domain];
+  const item = findByDomain(domain);
   if (item) {
     res.status(200).json({
       domain,

@@ -1,0 +1,8 @@
+---
+# yaml-language-server: $schema=./schema.json
+name: Meta
+description: "A list that includes sites where third parties add comments or other content to the source website, except some message boards like Reddit."
+items:
+  netnavi.appcard.jp:
+    reasons:
+      - not first party website

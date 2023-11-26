@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import cls from "clsx";
 import { twMerge } from "tailwind-merge";
-
 import { Inter } from "next/font/google";
-import { CATEGORIES, DESCRIPTIONS } from "@/data/schema";
 import Head from "next/head";
+
+import { CATEGORIES } from "@/data/schema";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +21,9 @@ const Paragraph = ({ children }: { children: React.ReactNode }) => {
 };
 
 export default function Home() {
+  const [categories, setCategories] = React.useState<
+    { category: string; description: string }[]
+  >([]);
   const [domain, setDomain] = React.useState<string>("");
   const [isLoading, setIsLoading] = React.useState<boolean>(false);
   const [item, setItem] = React.useState<{
@@ -46,6 +49,13 @@ export default function Home() {
 
     setIsLoading(false);
   };
+
+  // swr いれるのもめんどうなので useEffect で許してくれ
+  useEffect(() => {
+    fetch(`/api/c`)
+      .then((res) => res.json())
+      .then((w) => setCategories(w));
+  }, []);
 
   return (
     <>
@@ -147,38 +157,43 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-16 grid grid-cols-[repeat(12,1fr)] flex-col gap-x-6 gap-y-12 text-center md:mb-0 xl:text-left">
-          {CATEGORIES.map((w, i) => {
-            const isFirstRemainderIdx = {
-              md: Math.floor(CATEGORIES.length / 2) * 2 + 1,
-              lg: Math.floor(CATEGORIES.length / 3) * 3 + 1,
-              xl: Math.floor(CATEGORIES.length / 4) * 4 + 1,
-            };
+          {categories.length > 0 ? (
+            categories.map((w, i) => {
+              const isFirstRemainderIdx = {
+                md: Math.floor(categories.length / 2) * 2 + 1,
+                lg: Math.floor(categories.length / 3) * 3 + 1,
+                xl: Math.floor(categories.length / 4) * 4 + 1,
+              };
 
-            return (
-              <div
-                key={w}
-                className={twMerge(
-                  cls(
-                    "col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3",
-                    isFirstRemainderIdx.md == i + 1 && "md:col-[_4/span_6]",
-                    isFirstRemainderIdx.lg == i + 1 && "lg:col-[_5/span_4]",
-                    isFirstRemainderIdx.xl <= i + 1 && "xl:col-[span_4/span_4]"
-                  )
-                )}
-              >
-                <Heading2>{w}</Heading2>
-                <Paragraph>{DESCRIPTIONS[w]}</Paragraph>
-                <a
-                  href={`/${w}.txt`}
-                  className="text-sm underline md:text-base"
-                  target="_blank"
-                  rel="noopener noreferrer"
+              return (
+                <div
+                  key={w.category}
+                  className={twMerge(
+                    cls(
+                      "col-span-12 md:col-span-6 lg:col-span-4 xl:col-span-3",
+                      isFirstRemainderIdx.md == i + 1 && "md:col-[_4/span_6]",
+                      isFirstRemainderIdx.lg == i + 1 && "lg:col-[_5/span_4]",
+                      isFirstRemainderIdx.xl <= i + 1 &&
+                        "xl:col-[span_4/span_4]"
+                    )
+                  )}
                 >
-                  Subscribe
-                </a>
-              </div>
-            );
-          })}
+                  <Heading2>{w.category}</Heading2>
+                  <Paragraph>{w.description}</Paragraph>
+                  <a
+                    href={`/${w}.txt`}
+                    className="text-sm underline md:text-base"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Subscribe
+                  </a>
+                </div>
+              );
+            })
+          ) : (
+            <>loading...</>
+          )}
         </div>
       </main>
     </>

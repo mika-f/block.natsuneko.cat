@@ -1,0 +1,57 @@
+---
+# yaml-language-server: $schema=./schema.json
+description: A list that includes mechanically and/or manually translated and reprinted articles and/or contents from the source website such as StackOverflow.
+items:
+  "*.101-help.com":
+    level: strict
+    reasons:
+      - numerous articles are reprinted on overseas question websites
+  "*.eyewated.com":
+    reasons:
+      - numerous articles are reprinted on overseas articles
+  "*.letmeknow.ch":
+    reasons:
+      - numerous articles are reprinted on overseas question websites
+  "*.minitool.com":
+    reasons:
+      - numerous articles are reprinted on overseas question websites
+  "*.unansea.com":
+    reasons:
+      - numerous articles are reprinted on overseas articles
+  help.diary.to:
+    reasons:
+      - numerous articles are reprinted on overseas question websites
+  recoverit.wondershare.jp:
+    reasons:
+      - numerous articles are reprinted on overseas question websites
+  www.a7la-home.com:
+    reasons:
+      - numerous articles are reprinted on overseas articles
+  www.delftstack.com:
+    reasons:
+      - reprinted or poor quality
+  www.gamingdeputy.com:
+    reasons:
+      - translated articles on other websites
+  www.mekan0.com:
+    reasons:
+      - "translated by machine: https://www.mekan0.com/ja/how-to-fix-ntoskrnl-exe-blue-screen-of-death-error/"
+  www.reviversoft.com:
+    reasons:
+      - numerous articles are reprinted on overseas articles
+  www.techiedelight.com:
+    reasons:
+      - online compiler website, but reprinted source codes on GitHub
+  www.tunesbro.jp:
+    reasons:
+      - reprinted or poor quality
+  www.web-dev-qa-db-ja.com:
+    reasons:
+      - reprinted and translated articles on StackOverflow
+  zenn.dev/shiro12:
+    reasons:
+      - reprinted and translated articles on official document
+  zhcnt9.ilovetranslation.com:
+    reasons:
+      - numerous articles are reprinted on overseas question websites
+name: Machine Translation

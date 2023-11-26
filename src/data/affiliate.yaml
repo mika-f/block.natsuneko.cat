@@ -1,0 +1,39 @@
+---
+# yaml-language-server: $schema=./schema.json
+description: A list that includes affiliate websites designed to redirect traffic to own website and technical articles promoting own products.
+items:
+  aprico-media.com:
+    reasons:
+      - "there is no substance: https://aprico-media.com/posts/3803"
+  camp.trainocate.co.jp:
+    reasons:
+      - numerous articles leading to the company website
+  diamond.jp/crypto/:
+    level: strict
+    reasons:
+      - all articles navigated to https://coincheck.com
+  magazine.techacademy.jp:
+    reasons:
+      - numerous articles leading to the company website
+  realengineer.link:
+    reasons:
+      - numerous articles leading to the company website
+  www.data-recover.net:
+    reasons:
+      - numerous articles leading to the company website
+      - "leading to self website: http://www.data-recover.net/ja/computer/ntdll-dll-file.html"
+  www.partitionwizard.com:
+    reasons:
+      - numerous articles leading to the company website
+      - "leading to self website: https://www.partitionwizard.com/partitionmagic/hypervisor-error.html"
+  www.partitionwizard.jp:
+    reasons:
+      - numerous articles leading to the company website
+      - "leading to self website: https://www.partitionwizard.jp/disk-recovery/ntoskrnlexe-bsod.html"
+  www.sejuku.net:
+    reasons:
+      - numerous articles leading to the company website
+  zero-plus.io:
+    reasons:
+      - numerous articles leading to the company website
+name: Affiliates
