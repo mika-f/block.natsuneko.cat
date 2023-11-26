@@ -181,7 +181,9 @@ export default function Home() {
                   <Heading2>{w.category}</Heading2>
                   <Paragraph>{w.description}</Paragraph>
                   <a
-                    href={`/${w.category.toLowerCase()}.txt`}
+                    href={`/${w.category
+                      .toLowerCase()
+                      .replaceAll(" ", "-")}.txt`}
                     className="text-sm underline md:text-base"
                     target="_blank"
                     rel="noopener noreferrer"
